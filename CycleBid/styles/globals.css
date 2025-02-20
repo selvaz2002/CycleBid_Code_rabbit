@@ -1,0 +1,254 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+
+code[class*='language-'] {
+  padding: 0;
+}
+
+#editor .rdw-editor-toolbar {
+  display: none !important;
+}
+
+.align-left .public-DraftStyleDefault-ltr {
+  text-align: left !important;
+}
+
+.align-center .public-DraftStyleDefault-ltr {
+  text-align: center !important;
+}
+
+.align-right .public-DraftStyleDefault-ltr {
+  text-align: right !important;
+}
+
+.align-justify .public-DraftStyleDefault-ltr {
+  text-align: justify !important;
+}
+
+.rdw-editor-toolbar .rdw-option-active {
+  background-color: #ccc !important;
+  border-radius: 4px;
+  color: #000 !important;
+  padding: '5px',
+}
+
+.rdw-editor-toolbar .rdw-option-active:hover {
+  background-color: #ccc !important;
+  border-radius: 4px;
+  color: #000 !important;
+  padding: '5px',
+
+}
+
+.rdw-editor-toolbar .rdw-option-wrapper:hover {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.rdw-editor-toolbar {
+  border: none !important;
+}
+
+.rdw-list-wrapper {
+  margin-bottom: 5px !important;
+}
+
+.rdw-link-wrapper {
+  margin-bottom: 5px !important;
+}
+
+.rdw-image-wrapper {
+  margin-bottom: 5px !important;
+}
+
+.rdw-inline-wrapper {
+  margin-bottom: 5px !important;
+}
+
+.custom-datepicker-popper {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px !important;
+}
+
+.react-datepicker__time-container {
+  width: auto !important;
+  min-width: 110px !important;
+}
+
+.react-datepicker__time-list {
+  white-space: nowrap !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+@media (max-width: 375px) {
+  .custom-datepicker-popper {
+    min-width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .react-datepicker__time-container {
+    float: left !important;
+    right: "0px" !important
+  }
+
+  .css-fj6q34 .react-datepicker>.react-datepicker_navigation.react-datepicker_navigation--next--with-time {
+    right: 0px !important
+  }
+}
+
+@media (min-width: 1px) and (max-width: 360px) {
+  .rdw-link-modal {
+    width: 165px !important;
+    left: -90px !important;
+    padding: 8px !important;
+  }
+
+  .rdw-image-modal {
+    width: 165px !important;
+    left: -134px !important;
+    padding: 8px !important;
+  }
+
+  .rdw-link-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-upload-option {
+    margin: 0px !important;
+    padding: 5px 0px !important
+  }
+
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-link-modal-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-link-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-url-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-size-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-size-input {
+    padding: 0px 5px !important;
+  }
+
+}
+
+@media (min-width: 361px) and (max-width: 390px) {
+  .rdw-link-modal {
+    width: 200px !important;
+    left: -2px !important
+  }
+
+  .rdw-image-modal {
+    width: 230px !important;
+    left: -51px !important;
+    padding: 10px !important;
+  }
+
+  .rdw-link-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-upload-option {
+    margin: 0px !important;
+    padding: 5px 0px !important
+  }
+
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-link-modal-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-link-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-url-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-size-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-size-input {
+    padding: 0px 5px !important;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 450px) {
+  .rdw-link-modal {
+    left: -196px !important
+  }
+
+  .rdw-image-modal {
+    width: 280px !important;
+    left: -3px !important;
+    padding: 10px !important;
+  }
+
+  .rdw-link-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-btn {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .rdw-image-modal-upload-option {
+    margin: 0px !important;
+    padding: 5px 0px !important
+  }
+
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-link-modal-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-link-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-url-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-embedded-modal-size-input,
+  .css-9cy2av .rdw-editor-wrapper .rdw-editor-toolbar .rdw-image-modal-size-input {
+    padding: 0px 5px !important;
+  }
+}
+
+.MuiPickersToolbar-penIcon {
+  display: none !important;
+}
+
+.MuiPickersToolbar-views {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiPickersToolbarText-root {
+  display: none !important;
+}
+
+.custom-toolbar-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
